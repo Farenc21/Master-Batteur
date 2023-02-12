@@ -7,7 +7,6 @@ section.top-page{
 	background-image: url(../images/orchestre.jpg) ;
 	background-size: cover;
 	height: 100vh;
-	position: fixed;
 }
 
 img.logo{
@@ -20,7 +19,6 @@ nav ul{
 	display: flex;
 	list-style-type: none;
 	color: white;
-	font-size: 17px;
 	align-items: center;
 }
 ul.flex1 {
@@ -47,7 +45,7 @@ nav.navbar{
 	height: 15vh;
 }
 
-.button{
+.button {
 	padding: 10px;
 	border-style: outset;
 	border-top-left-radius: 20%;
@@ -60,9 +58,60 @@ nav ul li:hover{
 	text-decoration: underline;
 	cursor: pointer;
 }
+nav ul a{
+	color: white;
+	text-decoration:none;
+}
 
 nav ul a:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+
+
+/* Selection des catégories de concert souhaité */
+
+.all_concert {
+	justify-content: center;
+	display: flex;
+}
+
+.item{
+	width: 17vw;
+	height: 52vh;
+	background-position: center;
+	border-radius: 3vw;
+	background-size: 35vh;
+	margin: 1vw;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+}
+
+.all_concert .text{
+	font-family: 'Anton', sans-serif;
+	text-decoration: none;
+	position: absolute;
+	margin: 0;
+	color: gray;
+	font-size: 25px;
+	display: none;
+}
+
+.all_concert .active{
+	font-family: 'Maven pro', sans-serif;
+	text-decoration: none;
+	position: absolute;
+	margin: 0;
+	color: white;
+	font-size: 35px;
+	display: block;
+	cursor: pointer;
+}
+
+.all_concert .active:hover{
+	text-decoration: underline;
+	transform: scale(1.1);
 }
