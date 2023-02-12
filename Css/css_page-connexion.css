@@ -1,0 +1,52 @@
+/* Page de connexion */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@400;500&family=Roboto&display=swap');
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-image: url(../images/orchestre.jpg);
+ }   
+
+form{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    padding: 60px 80px;
+    border-radius: 15px;
+    min-width: 300px;
+}
+
+h1{
+    color: #ff5400;
+    text-align: center;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input[type="email"], input[type="password"]{
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f8f7ff;
+    margin-bottom: 20px;
+    outline-color: #ff5400;
+}
+
+form a.inscription{
+    font-size: 15px;
+    color: #ff5400;
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff5400;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
