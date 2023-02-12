@@ -1,109 +1,68 @@
-
-/* <body> .....</body>  */
-body { 
-	font-size: 16pt; 
-	background-color: #262626; 
-	/*background-image: url(fleur2.png); */
-	/*background-repeat:repeat;*/
-	font-family:system-ui;
-}
-p {
-	color :#dab144
-}
-code {
-	/* background-color: #DCDCDC; */
-	font-family: Courier New, monospace;
-	/* border-width: 3px ; */
-	/* border-style:solid; */
-	/* border-color: black; */
-	
-}
-.nul{
-	background: transparent;
-	font-size: 0pt;
-	border: 0;
-	height:0px;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@500&display=swap');
+body{
+	margin: 0px auto;
 }
 
-
-.transparent {
-border: 0;
-background: transparent;
-font-size: 15pt;
+section.top-page{
+	background-image: url(../images/orchestre.jpg) ;
+	background-size: cover;
+	height: 100vh;
+	position: fixed;
 }
 
-/* <h1> .....</h1>  */
-h1 {
-  color:#dab144;
-  border: #dd0808;
-  border-bottom: 5px solid #aaaaaa;
-  border-color: #ee0e0e;
-  display: inline;
-  /*background-color: red;*/
+img.logo{
+	width: 150px;
+	height: 150px;
+}
+/* Menu de navigation */
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	color: white;
+	font-size: 17px;
+	align-items: center;
+}
+ul.flex1 {
+	width: 80vw;
+	justify-content: space-around;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 22px;
 }
 
-h2 {
-  color:#dab144;
-  background-color: green;
+ul.flex3{
+	width: 20vw;
+	display: flex;
+	font-size: 30px;
+	padding-left: 0px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
 }
 
-ul {
-	list-style-type: none; /*Supprime les puces*/
-  }
-
-/* <balise id = "photo" ........</balise> */
-#photo { 
-	margin-right:20px;
-	width: 40px;
-	float: left; 
+nav.navbar{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding-top: 0px;
+	height: 15vh;
 }
 
-#photo_2 { 
-	margin-right:20px;
-	height: 4px;
-	float: right; 
+.button{
+	padding: 10px;
+	border-style: outset;
+	border-top-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+	text-decoration: none;
 }
 
-/* <balise class = "toto" ........</balise> */
-.toto {
-	text-align: center; 
+nav ul li:hover{
+	transform: scale(1.2);
+	text-decoration: underline;
+	cursor: pointer;
 }
 
-/* <balise class = "right" ........</balise> */
-.right {
-	text-align: right; 
-}
-
-/* <balise class = "right" ........</balise> */
-.left {
-	text-align: left; 
-}
-
-
-.button {
-background: #6495ED;
-color: #fff;
-border: 1px solid #eee;
-border-radius: 20px;
-box-shadow: 5px 5px 5px #eee;
-text-shadow:none;
-height: 30px;
-
-}
-.button:hover {
-background: #1E90FF;
-color: #fff;
-border: 1px solid #eee;
-border-radius: 20px;
-box-shadow: 5px 5px 5px #eee;
-text-shadow:none;
-}
-
-.Boutton_log {
-	background: #0e0e0e;
-	color: #dab144;
-	float: right;
-	height:40px;
-	font-size: large;
-	margin-right: 15px;
+nav ul a:hover{
+	transform: scale(1.2);
+	text-decoration: underline;
+	cursor: pointer;
 }
