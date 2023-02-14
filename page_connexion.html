@@ -1,51 +1,28 @@
 <!doctype html>   <!-- Chaques balises doivent être refermées -->
 <html lang="fr">
-	<head> <!-- entête -->
-		<meta charset="utf-8">
-		<title>Master Batteur</title>
-		<link rel="stylesheet" href="css/css_main.css">
-		<link rel="icon" href="images/logo.jpg" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-		<script src="main.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page de connexion</title>
+        <link rel="icon" href="images/logo.jpg" />
+        <link rel="stylesheet" href="Css/css_page-connexion.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    </head>
 
-	<body>
-		<section class="top-page">
-			<nav class="navbar">
-				<ul class="flex3">
-					<img class="logo" src="images/logo.svg" alt="Logo du site">
-					<h1>Masteur Batteur</h1>
-				</ul>
-				<ul class="flex1">
-					<a href="site-web.html">Accueil</a>
-					<li>Voir les ventes</li>
-					<li>Aide</li>
-					<a href="page_connexion.html" style="color:white" class="button">Se connecter</a>
-				</ul>
-			</nav>
-		</section>
-
-		<section class="all_concert">
-			<div class="item" style="background-image: url(images/1.jpg);">
-				<a href="reservation/solistes.html" class="text">Solistes</a>
-			</div>
-			<div class="item" style="background-image: url(images/2.jpg);">
-				<a href="reservation/musique-de-chambre.html" class="text">Musique de chambre</a>
-			</div>
-			<div class="item" style="background-image: url(images/3.jpg);">
-				<a href="reservation/concerto.html" class="text">Concerto</a>
-			</div>
-			<div class="item" style="background-image: url(images/4.jpg);">
-				<a href="reservation/symphonie.html" class="text">Symphonie</a>
-			</div>
-			<div class="item" style="background-image: url(images/5.jpg);">
-				<a href="reservation/autres.html" class="text">Autres</a>
-			</div>
-		</section>
-		
-	</body>
+    <body>
+        <form>
+            <h1>Se connecter</h1>
+            <div class="inputs">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Mot de passe">
+            </div>
+            <div align="center">
+                <button type="submit">Se connecter</button>
+            </div>
+            <a href="" class="inscription">Je n'ai pas de compte, je m'en créer un.</a>
+        </form>
+    </body>
 </html>
+
 
