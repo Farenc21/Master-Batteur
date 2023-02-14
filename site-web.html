@@ -8,10 +8,10 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
-		<!-- <script src="java/hollow_knight.js"></script> -->
-
+		<script src="main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	</head>
+
 	<body>
 		<section class="top-page">
 			<nav class="navbar">
@@ -20,21 +20,31 @@
 					<h1>Masteur Batteur</h1>
 				</ul>
 				<ul class="flex1">
-					<li>Accueil</li>
+					<a href="site-web.html">Accueil</a>
 					<li>Voir les ventes</li>
 					<li>Aide</li>
-					<a href="page_connexion.html" target="_blank" style="color:white" class="button">Se connecter</a>
+					<a href="page_connexion.html" style="color:white" class="button">Se connecter</a>
 				</ul>
 			</nav>
 		</section>
-	</body>
-	<!-- Code Javascript -->
-	<!-- <script> -->
-		<!-- const boutton = document.getElementById("retour") -->
-		<!-- boutton.onclick = () => document.entree.sss.value = "bonjour" + " " + document.entree.nom.value +  " " + document.entree.prenom.value + " !" -->
-		<!-- const boutton2 = document.getElementById("alerte") -->
-		<!-- boutton2.onclick = () => window.alert(document.entree.prenom.value + " a cliqué sur le bouton") -->
-		<!-- alert("Bienveunue " + prompt(document.form3.prompt3.value) + " " + prompt(document.form3.prompt4.value)); -->
-	<!-- </script> -->
-</html>
 
+		<section class="all_concert">
+			<div class="item" style="background-image: url(images/1.jpg);">
+				<a href="reservation/solistes.html" class="text">Solistes</a>
+			</div>
+			<div class="item" style="background-image: url(images/2.jpg);">
+				<a href="reservation/musique-de-chambre.html" class="text">Musique de chambre</a>
+			</div>
+			<div class="item" style="background-image: url(images/3.jpg);">
+				<a href="reservation/concerto.html" class="text">Concerto</a>
+			</div>
+			<div class="item" style="background-image: url(images/4.jpg);">
+				<a href="reservation/symphonie.html" class="text">Symphonie</a>
+			</div>
+			<div class="item" style="background-image: url(images/5.jpg);">
+				<a href="reservation/autres.html" class="text">Autres</a>
+			</div>
+		</section>
+		
+	</body>
+</html>
