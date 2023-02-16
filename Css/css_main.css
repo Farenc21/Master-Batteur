@@ -41,7 +41,7 @@ nav.navbar{
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	padding-top: 0px;
+	padding-top: 0;
 	height: 15vh;
 }
 
@@ -79,11 +79,11 @@ nav ul a:hover{
 }
 
 .item{
-	width: 17vw;
-	height: 52vh;
+	width: 5vw;
+	height: 20vh;
 	background-position: center;
 	border-radius: 3vw;
-	background-size: 35vh;
+	background-size: contain;
 	margin: 1vw;
 	background-color: red;
 	display: flex;
@@ -109,6 +109,8 @@ nav ul a:hover{
 	font-size: 35px;
 	display: block;
 	cursor: pointer;
+	background-size: contain;
+
 }
 
 .all_concert .active:hover{
