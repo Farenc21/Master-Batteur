@@ -11,16 +11,16 @@
     </head>
 
     <body>
-        <form>
+        <form action="php/inscription.php" method="post">
             <h1>Je m'inscris</h1>
             <div class="inputs">
-                <input type="email" placeholder="Email">
-                <input type="tel" maxlength="10" Pattern="[0-9]" placeholder="Numéro de téléphone">
-                <input type="password" class="mdp1" placeholder="Mot de passe">
-                <input type="password" class="mdp2" placeholder="Confirmer le mot de passe">
+                <input type="email" name="email" placeholder="Email">
+                <input type="tel" name="tel" maxlength="10" Pattern="[0-9]" placeholder="Numéro de téléphone">
+                <input type="password" name="password1" class="mdp1" placeholder="Mot de passe">
+                <input type="password" name="password2" class="mdp2" placeholder="Confirmer le mot de passe">
             </div>
             <div align="center">
-                <button type="submit">S'inscrire</button>
+                <button type="submit" name="S'inscrire">S'inscrire</button>
             </div>
         </form>
     </body>
