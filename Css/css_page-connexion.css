@@ -25,7 +25,7 @@ form .inputs{
     flex-direction: column;
 }
 
-form .inputs input[type="email"], input[type="password"]{
+form .inputs input[type="email"], input[type="password"], input[type="tel"]{
     padding: 25px;
     border-radius: 10px;
     border: none;
@@ -50,3 +50,4 @@ form button{
     font-weight: 700;
     cursor: pointer;
 }
+
