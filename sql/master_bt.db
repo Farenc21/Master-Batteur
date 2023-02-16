@@ -1,1 +1,6 @@
-
+CREATE TABLE table1
+(
+    tel INTEGER,
+    mail STR,
+    mdp STR
+)
